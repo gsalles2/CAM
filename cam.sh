@@ -4,10 +4,10 @@ clear
 
 ### VARIAVEIS
 
-usuario="agmlogistica"
-server="ftp.agmlogistica.com.br"
-porta="21"
-wordl="agmlogistica"
+usuario=""
+server=""
+porta=""
+wordl=""
 
 ### FUNÇÕES
 
@@ -36,3 +36,4 @@ while $senha -z ;do
 	senha=$(cat words/$wordl | head -$linha  | tail -1)
 	martelada
 done
+
